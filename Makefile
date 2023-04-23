@@ -1,0 +1,2 @@
+all:
+	clear && g++ -std=c++11 main.cpp world.cpp organism.cpp animal.cpp plant.cpp wolf.cpp sheep.cpp fox.cpp turtle.cpp antelope.cpp cybersheep.cpp grass.cpp sowthistle.cpp guarana.cpp belladonna.cpp sosnowskys_hogweed.cpp human.cpp -lncurses && ./a.out
